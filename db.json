@@ -1,0 +1,40 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "ms dhoni",
+      "status": "not out",
+      "runs": "60",
+      "balls": "65",
+      "fours": "5",
+      "sixs": "4"
+    },
+    {
+      "name": "kohli",
+      "status": "not out",
+      "runs": "42",
+      "balls": "30",
+      "fours": "4",
+      "sixs": "1",
+      "id": 3
+    },
+    {
+      "name": "sachin",
+      "status": "out",
+      "runs": "18",
+      "balls": "9",
+      "fours": "2",
+      "sixs": "1",
+      "id": 4
+    },
+    {
+      "name": "ms dhoni",
+      "status": "not out",
+      "runs": "56",
+      "balls": "64",
+      "fours": "4",
+      "sixs": "3",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+api- application programmable interface- share the data between the server and client
+
+ajax-Asynchronous JavaScript and XML- 
+there are 4 methods
+1.GET -Read
+1.a) GET record by ID- baseURL/id
+2.Post - create - is to capture the data and send to server
+3.Put - update - prefill the data,capture the data and send to the server
+4.Delete -Delete
+CRUD
+
+ 

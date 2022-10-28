@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="player.html">Player</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+               <form action="" class="player">
+                
+                    <div class="mb-3">
+                      <input type="hidden" class="form-control" id="playerId" aria-describedby="fieldHelp" name="playerId">
+                      
+                    </div>
+                    <div class="mb-3">
+                        <label for="playerName" class="form-label">Player Name</label>
+                        <input type="text" class="form-control" id="playerName" aria-describedby="fieldHelp" name="playerName">
+                        <div id="fieldHelp" class="form-text">Enter the Player Name</div>
+                      </div>
+                    
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Status</label>
+                        <input type="text" class="form-control" id="status" aria-describedby="fieldHelp" name="status">
+                        <div id="fieldHelp" class="form-text">Enter the status</div>
+                      </div>
+                      
+                    <div class="mb-3">
+                        <label for="runs" class="form-label">Runs</label>
+                        <input type="text" class="form-control" id="runs" aria-describedby="fieldHelp" name="runs">
+                        <div id="fieldHelp" class="form-text">Enter the runs</div>
+                      </div>
+                      
+                    <div class="mb-3">
+                        <label for="balls" class="form-label">Balls</label>
+                        <input type="text" class="form-control" id="balls" aria-describedby="fieldHelp" name="balls">
+                        <div id="fieldHelp" class="form-text">Enter the balls</div>
+                      </div>
+                      
+                    <div class="mb-3">
+                        <label for="fours" class="form-label">Fours</label>
+                        <input type="text" class="form-control" id="fours" aria-describedby="fieldHelp" name="fours">
+                        <div id="fieldHelp" class="form-text">Enter the fours</div>
+                      </div>
+                      
+                    <div class="mb-3">
+                        <label for="sixs" class="form-label">Sixs</label>
+                        <input type="text" class="form-control" id="sixs" aria-describedby="fieldHelp" name="sixs">
+                        <div id="fieldHelp" class="form-text">Enter the sixs</div>
+                      </div>
+                    <div>
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+               </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/update.js"></script>
+</body>
+
+</html>
